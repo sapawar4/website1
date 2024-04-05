@@ -3,3 +3,9 @@ title: "My Website"
 ---
 
 Welcome to my website!
+
+```{r}
+quarto::embed_html("my_page.html")
+` ``
+
+This will embed the contents of `my_page.html` into your Quarto document.
